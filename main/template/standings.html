@@ -1,0 +1,22 @@
+
+{{#divisions}}
+<b>Division: {{tier}}</b>
+<table class="table">
+<tr class="header-row">
+  <td class="text-xs-center">#</td>
+  <td>Team</td>
+  <td class="text-xs-center">W</td>
+  <td class="text-xs-center">L</td>
+  <td>Points</td>
+</tr>
+{{#rows}}
+<tr>
+  <td class="text-xs-center">{{n}}</td>
+  <td><a href="/teams/{{key}}">{{name}}</a></td>
+  <td class="text-xs-center">{{wins.length}}</td>
+  <td class="text-xs-center">{{losses.length}}</td>
+  <td class="text-xs-right">{{points}}</td>
+</tr>
+{{/rows}}
+</table>
+{{/divisions}}

@@ -1,0 +1,32 @@
+{
+  "name": "ifpa-rank-service",
+  "version": "1.0.0",
+  "description": "Proxy to IFPA API to get rank by player name",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG='ifpa-rank-service*' node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mondaynightpinball/ifpa-rank-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mondaynightpinball/ifpa-rank-service/issues"
+  },
+  "homepage": "https://github.com/mondaynightpinball/ifpa-rank-service#readme",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "http-errors": "^1.6.2",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
