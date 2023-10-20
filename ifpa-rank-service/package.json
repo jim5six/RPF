@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mondaynightpinball/ifpa-rank-service.git"
+    "url": "git+https://github.com/RenoPinballFederation/ifpa-rank-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mondaynightpinball/ifpa-rank-service/issues"
+    "url": "https://github.com/RenoPinballFederation/ifpa-rank-service/issues"
   },
-  "homepage": "https://github.com/mondaynightpinball/ifpa-rank-service#readme",
+  "homepage": "https://github.com/RenoPinballFederation/ifpa-rank-service#readme",
   "dependencies": {
     "debug": "^2.6.8",
     "dotenv": "^4.0.0",

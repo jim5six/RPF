@@ -7,7 +7,7 @@ console.log('Sending a test email to:', TO);
 
 gmail.send({
   to: TO,
-  from: 'Monday Night Pinball <service@mondaynightpinball.com>',
+  from: 'Reno Pinball Federation <service@RenoPinballFederation.com>',
   subject: 'Test Email',
   message: 'Hello There. This is a test.'
 })

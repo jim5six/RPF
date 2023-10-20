@@ -29,7 +29,7 @@ function createRoot(password) {
       //Create a new user.
       user = new User({
         username: 'root',
-        email: 'service@mondaynightpinball.com'
+        email: 'service@RenoPinballFederation.com'
       });
     }
     return user.generatePasswordHash(password);

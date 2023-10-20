@@ -1,2 +1,2 @@
 # data-archive
-Raw data of Seattle Monday Night Pinball from season 2 onward.
+Raw data of Seattle Reno Pinball Federation from season 2 onward.

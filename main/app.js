@@ -15,6 +15,6 @@ https.createServer(opts, app).listen(443);
 //Setup http -> https redirection
 var redirect = express();
 redirect.use(function(req,res,next) {
-  res.redirect('https://www.mondaynightpinball.com'+req.url);
+  res.redirect('https://www.RenoPinballFederation.com'+req.url);
 });
 redirect.listen(80);

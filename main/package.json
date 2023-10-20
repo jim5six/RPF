@@ -1,7 +1,7 @@
 {
-  "name": "mondaynightpinball",
+  "name": "RenoPinballFederation",
   "version": "1.0.0",
-  "description": "Live scoring for Monday Night Pinball.",
+  "description": "Live scoring for Reno Pinball Federation.",
   "main": "app.js",
   "directories": {
     "test": "test"

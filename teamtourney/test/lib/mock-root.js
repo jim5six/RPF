@@ -6,7 +6,7 @@ module.exports = function() {
   let _user = {};
   return new User({
     username: 'root',
-    email: 'service@mondaynightpinball.com'
+    email: 'service@RenoPinballFederation.com'
   })
   .generatePasswordHash('root_pw')
   .then( user => user.save())

@@ -10,7 +10,7 @@ var router = express.Router();
 var list = [
   'localhost',
   'geofftest.com',
-  'mondaynightpinball.com'
+  'RenoPinballFederation.com'
 ];
 
 router.use('/', function(req, res, next) {

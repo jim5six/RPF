@@ -1,16 +1,16 @@
-# Monday Night Pinball
+# Reno Pinball Federation
 
 ## Summary
 
 As of January 23rd, 2018, the MNP main codebase is now open source, under Gnu Public License (GPL).
-Visit the live site at: [https://www.mondaynightpinball.com](https://www.mondaynightpinball.com)
+Visit the live site at: [https://www.RenoPinballFederation.com](https://www.RenoPinballFederation.com)
 
 ## Installation
 
 ### Clone and Install the dependencies:
 
 ```
-git clone https://github.com/mondaynightpinball/main.git
+git clone https://github.com/RenoPinballFederation/main.git
 npm i
 ```
 
@@ -45,7 +45,7 @@ The code needs a few files setup to get things going.
 Many of the config files that were used for seasons 6, 7, and 8
 are available, as well as all the match data, schedule, and rosters.
 
-Visit the [data archive](https://github.com/mondaynightpinball/data-archive)
+Visit the [data archive](https://github.com/RenoPinballFederation/data-archive)
 
 TODO: It would be awesome to have the code just point to a DATA_HOME .env var. Then people could clone the data archive and point the server code at it (until a better solution becomes available).
 
@@ -148,7 +148,7 @@ The system doesn't filter which matches are visible, so it is usually advised to
 
 This is one of the areas of the site that could be very much improved once we move to a proper database. That project exists and has a fair amount of test coverage. The goal is to integrate that backend code with this full stack project to replace the `model`s.
 
-[Proposed New MNP Backend](https://github.com/mondaynightpinball/server)
+[Proposed New MNP Backend](https://github.com/RenoPinballFederation/server)
 
 ### Generating stats
 
@@ -180,4 +180,4 @@ There are more solutions, and layers like `nginx` that can help clean up our sol
 
 ## Contributing
 
-We very much want developers to be able to help make the MNP site more reliable, secure, beautiful, and responsive. Feel free to submit PRs, and check out our [issues](https://github.com/mondaynightpinball/main/issues).
+We very much want developers to be able to help make the MNP site more reliable, secure, beautiful, and responsive. Feel free to submit PRs, and check out our [issues](https://github.com/RenoPinballFederation/main/issues).

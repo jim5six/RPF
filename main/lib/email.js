@@ -5,7 +5,7 @@ const gmail = require('./gmail.js');
 */
 //TODO: Consider using single params {} object.
 function send(to,subject,message) {
-  const from = 'Monday Night Pinball <service@mondaynightpinball.com>';
+  const from = 'Reno Pinball Federation <service@RenoPinballFederation.com>';
 
   return gmail.send({to, from, subject, message});
 }
